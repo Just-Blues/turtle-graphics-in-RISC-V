@@ -7,9 +7,7 @@ Program reads 600x50 pixels .bmp file and using parameters given in .bin file, c
 - original.bmp - is just an empty 50x600 .bmp file            
 ------------------------
               
-             
-             
-Below are instructions that will allow for correct .bin file creation.
+Below are instructions that will allow correct .bin file creation.
 
 In order for the program to work properly, input .bin file has to follow the following format:
 

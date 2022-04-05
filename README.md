@@ -2,9 +2,9 @@
 
 Program reads 600x50 pixels .bmp file and using parameters given in .bin file, creates a new .bmp file, using turtle graphics logic
 
-input.bin - contains parameters neccessary to draw a small square
-output.bmp - contains output of program operation with input.bin parameters
-original.bmp - is just an empty 50x600 .bmp file
+- input.bin - contains parameters neccessary to draw a small square
+- output.bmp - contains output of program operation with input.bin parameters
+- original.bmp - is just an empty 50x600 .bmp file
 
 
 
@@ -23,10 +23,10 @@ the bottom left corner of the image.
 The set direction command sets the direction in which the turtle will move, when a move
 command is issued. The direction is defined by the bits no 11 and 10. 
 Each of 4 combinations of bits no. 11 and 10 set's direction:
-00 - up
-01 - left
-10 - down
-11 - right
+- 00 - up
+- 01 - left
+- 10 - down
+- 11 - right
 
 3. Move command (1 word), first two bits must be 0 and 0
 The move command moves the turtle in direction specified by the previous command. The movement
@@ -37,14 +37,14 @@ The turtle leaves a visible trail when the pen is lowered. The color of the trai
 4. The pen state command (1 word), first two bits must be 0 and 1
 Defines whether the pen is raised or lowered (bit no. 12) and the color of
 the trail. Bits no. 10 - 8 select one of the predefined colors from the color table:
-000 - black
-001 - purple
-010 - cyan 
-011 - yellow
-100 - blue
-101 - green
-110 - red
-111 - white
+- 000 - black
+- 001 - purple
+- 010 - cyan 
+- 011 - yellow
+- 100 - blue
+- 101 - green
+- 110 - red
+- 111 - white
 
 
 

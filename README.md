@@ -3,7 +3,8 @@
 Program reads 600x50 pixels .bmp file and using parameters given in .bin file, creates a new .bmp file, using turtle graphics logic
 
 input.bin - contains parameters neccessary to draw a small square
-
+output.bmp - contains output of program operation with input.bin parameters
+original.bmp - is just an empty 50x600 .bmp file
 
 
 
